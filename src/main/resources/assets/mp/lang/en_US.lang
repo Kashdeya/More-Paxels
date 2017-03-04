@@ -1,0 +1,38 @@
+# Group
+itemGroup.MorePaxels=More Paxels
+# Vanilla
+item.WoodenPaxel.name=Wooden Paxel
+item.StonePaxel.name=Stone Paxel
+item.GoldenPaxel.name=Golden Paxel
+item.IronPaxel.name=Iron Paxel
+item.DiamondPaxel.name=Diamond Paxel
+
+# BaseMetals
+item.CopperPaxel.name=Copper Paxel
+item.SilverPaxel.name=Silver Paxel
+item.TinPaxel.name=Tin Paxel
+item.LeadPaxel.name=Lead Paxel
+item.SteelPaxel.name=Steel Paxel
+item.NickelPaxel.name=Nickel Paxel
+item.PlatinumPaxel.name=Platinum Paxel
+item.ColdPaxel.name=Cold Iron Paxel
+item.MithrilPaxel.name=Mithril Paxel
+item.StarPaxel.name=Star Steel Paxel
+item.BronzePaxel.name=Bronze Paxel
+item.BrassPaxel.name=Brass Paxel
+item.ElectrumPaxel.name=Electrum Paxel
+item.InvarPaxel.name=Invar Paxel
+item.AquariumPaxel.name=Aquarium Paxel
+item.AdamantinePaxel.name=Adamantine Paxel
+item.CupronickelPaxel.name=Cupronickel Paxel
+
+# IE
+item.ImmersiveCopperPaxel.name=Copper Paxel
+item.ImmersiveAluminiumPaxel.name=Aluminium Paxel
+item.ImmersiveLeadPaxel.name=Lead Paxel
+item.ImmersiveSilverPaxel.name=Silver Paxel
+item.ImmersiveNickelPaxel.name=Nickel Paxel
+item.ImmersiveUraniumPaxel.name=Uranium Paxel
+item.ImmersiveConstantanPaxel.name=Constantan Paxel
+item.ImmersiveElectrumPaxel.name=Electrum Paxel
+item.ImmersiveSteelPaxel.name=Steel Paxel

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mp",
+  "name": "More Paxels",
+  "description": "Paxels, Paxels, Everywhere!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/MorePaxels",
+  "updateUrl": "",
+  "authorList": ["Kashdeya"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
