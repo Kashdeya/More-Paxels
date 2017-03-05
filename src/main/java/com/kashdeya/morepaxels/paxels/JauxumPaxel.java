@@ -1,22 +1,22 @@
 package com.kashdeya.morepaxels.paxels;
 
 import net.minecraft.item.ItemStack;
-import blusunrize.immersiveengineering.common.IEContent;
 
 import com.kashdeya.morepaxels.handlers.ConfigHandler;
+import com.sosnitzka.taiga.Items;
 
-public class ImmersiveNickelPaxel extends MainPaxels {
+public class JauxumPaxel extends MainPaxels {
 	
-	public ImmersiveNickelPaxel(ToolMaterial material) {
+	public JauxumPaxel(ToolMaterial material) {
 		super(material);
-		this.setUnlocalizedName("ImmersiveNickelPaxel");
-		this.setMaxDamage(ConfigHandler.ImmersiveNickelDamage);
+		this.setUnlocalizedName("JauxumPaxel");
+		this.setMaxDamage(ConfigHandler.JauxumDamage);
 	}
 	
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-        ItemStack mat = new ItemStack(IEContent.itemMetal, 1, 4);
+        ItemStack mat = new ItemStack(Items.jauxumIngot);
         if (mat != null && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
         return super.getIsRepairable(toRepair, repair);
     }

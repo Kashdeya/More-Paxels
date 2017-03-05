@@ -27,12 +27,48 @@ item.AdamantinePaxel.name=Adamantine Paxel
 item.CupronickelPaxel.name=Cupronickel Paxel
 
 # IE
-item.ImmersiveCopperPaxel.name=Copper Paxel
-item.ImmersiveAluminiumPaxel.name=Aluminium Paxel
-item.ImmersiveLeadPaxel.name=Lead Paxel
-item.ImmersiveSilverPaxel.name=Silver Paxel
-item.ImmersiveNickelPaxel.name=Nickel Paxel
+item.ImmersiveAluminiumPaxel.name=Aluminium Paxell
 item.ImmersiveUraniumPaxel.name=Uranium Paxel
 item.ImmersiveConstantanPaxel.name=Constantan Paxel
-item.ImmersiveElectrumPaxel.name=Electrum Paxel
-item.ImmersiveSteelPaxel.name=Steel Paxel
+
+#Adamantium
+item.AdamaniumPaxel.name=Adamantium Paxel
+
+#Taiga
+item.AbyssumPaxel.name=
+item.AdamantPaxel.name=
+item.AstriumPaxel.name=
+item.AuroriumPaxel.name=
+item.BasaltPaxel.name=
+item.DilithiumPaxel.name=
+item.DuranitePaxel.name=
+item.DyonitePaxel.name=
+item.EezoPaxel.name=
+item.FractumPaxel.name=
+item.IgnitzPaxel.name=
+item.ImperomitePaxel.name=
+item.IoxPaxel.name=
+item.JauxumPaxel.name=
+item.KarmesinePaxel.name=
+item.LumixPaxel.name=
+item.MeteoritePaxel.name=
+item.NihilitePaxel.name=
+item.NiobPaxel.name=
+item.NucleumPaxel.name=
+item.ObsidioritePaxel.name=
+item.OsramPaxel.name=
+item.OviumPaxel.name=
+item.PalladiumPaxel.name=
+item.PrometheumPaxel.name=
+item.ProxiiPaxel.name=
+item.SeismumPaxel.name=
+item.SolariumPaxel.name=
+item.TerraxPaxel.name=
+item.TiberiumPaxel.name=
+item.TriberiumPaxel.name=
+item.TritonitePaxel.name=
+item.UruPaxel.name=
+item.ValyriumPaxel.name=
+item.VibraniumPaxel.name=
+item.VioliumPaxel.name=
+item.YrdeenPaxel.name=

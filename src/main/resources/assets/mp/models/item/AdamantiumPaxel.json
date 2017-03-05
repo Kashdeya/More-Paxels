@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "mp:items/ImmersiveCopperPaxel"
+        "layer0": "mp:items/AdamantiumPaxel"
     }
 }

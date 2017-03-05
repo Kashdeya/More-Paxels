@@ -1,22 +1,22 @@
 package com.kashdeya.morepaxels.paxels;
 
 import net.minecraft.item.ItemStack;
-import blusunrize.immersiveengineering.common.IEContent;
 
 import com.kashdeya.morepaxels.handlers.ConfigHandler;
+import com.sosnitzka.taiga.Items;
 
-public class ImmersiveSteelPaxel extends MainPaxels {
+public class ObsidioritePaxel extends MainPaxels {
 	
-	public ImmersiveSteelPaxel(ToolMaterial material) {
+	public ObsidioritePaxel(ToolMaterial material) {
 		super(material);
-		this.setUnlocalizedName("ImmersiveSteelPaxel");
-		this.setMaxDamage(ConfigHandler.ImmersiveSteelDamage);
+		this.setUnlocalizedName("ObsidioritePaxel");
+		this.setMaxDamage(ConfigHandler.ObsidioriteDamage);
 	}
 	
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-        ItemStack mat = new ItemStack(IEContent.itemMetal, 1, 8);
+        ItemStack mat = new ItemStack(Items.obsidioriteIngot);
         if (mat != null && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
         return super.getIsRepairable(toRepair, repair);
     }

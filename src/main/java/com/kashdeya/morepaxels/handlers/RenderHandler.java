@@ -39,13 +39,49 @@ public class RenderHandler {
 		// IE Renders
 		InventoryItemRender(PaxelTools.ImmersiveAluminiumPaxel, "ImmersiveAluminiumPaxel");
 		InventoryItemRender(PaxelTools.ImmersiveConstantanPaxel, "ImmersiveConstantanPaxel");
-		InventoryItemRender(PaxelTools.ImmersiveCopperPaxel, "ImmersiveCopperPaxel");
-		InventoryItemRender(PaxelTools.ImmersiveElectrumPaxel, "ImmersiveElectrumPaxel");
-		InventoryItemRender(PaxelTools.ImmersiveLeadPaxel, "ImmersiveLeadPaxel");
-		InventoryItemRender(PaxelTools.ImmersiveNickelPaxel, "ImmersiveNickelPaxel");
-		InventoryItemRender(PaxelTools.ImmersiveSilverPaxel, "ImmersiveSilverPaxel");
-		InventoryItemRender(PaxelTools.ImmersiveSteelPaxel, "ImmersiveSteelPaxel");
 		InventoryItemRender(PaxelTools.ImmersiveUraniumPaxel, "ImmersiveUraniumPaxel");
+		
+		// Adamantium
+		InventoryItemRender(PaxelTools.AdamantiumPaxel, "AdamantiumPaxel");
+		
+		// Taiga
+		InventoryItemRender(PaxelTools.AbyssumPaxel, "AbyssumPaxel");
+		InventoryItemRender(PaxelTools.AdamantPaxel, "AdamantPaxel");
+		InventoryItemRender(PaxelTools.AstriumPaxel, "AstriumPaxel");
+		InventoryItemRender(PaxelTools.AuroriumPaxel, "AuroriumPaxel");
+		InventoryItemRender(PaxelTools.BasaltPaxel, "BasaltPaxel");
+		InventoryItemRender(PaxelTools.DilithiumPaxel, "DilithiumPaxel");
+		InventoryItemRender(PaxelTools.DuranitePaxel, "DuranitePaxel");
+		InventoryItemRender(PaxelTools.DyonitePaxel, "DyonitePaxel");
+		InventoryItemRender(PaxelTools.EezoPaxel, "EezoPaxel");
+		InventoryItemRender(PaxelTools.FractumPaxel, "FractumPaxel");
+		InventoryItemRender(PaxelTools.IgnitzPaxel, "IgnitzPaxel");
+		InventoryItemRender(PaxelTools.ImperomitePaxel, "ImperomitePaxel");
+		InventoryItemRender(PaxelTools.IoxPaxel, "IoxPaxel");
+		InventoryItemRender(PaxelTools.JauxumPaxel, "JauxumPaxel");
+		InventoryItemRender(PaxelTools.KarmesinePaxel, "KarmesinePaxel");
+		InventoryItemRender(PaxelTools.LumixPaxel, "LumixPaxel");
+		InventoryItemRender(PaxelTools.MeteoritePaxel, "MeteoritePaxel");
+		InventoryItemRender(PaxelTools.NihilitePaxel, "NihilitePaxel");
+		InventoryItemRender(PaxelTools.NiobPaxel, "NiobPaxel");
+		InventoryItemRender(PaxelTools.NucleumPaxel, "NucleumPaxel");
+		InventoryItemRender(PaxelTools.ObsidioritePaxel, "ObsidioritePaxel");
+		InventoryItemRender(PaxelTools.OsramPaxel, "OsramPaxel");
+		InventoryItemRender(PaxelTools.OviumPaxel, "OviumPaxel");
+		InventoryItemRender(PaxelTools.PalladiumPaxel, "PalladiumPaxel");
+		InventoryItemRender(PaxelTools.PrometheumPaxel, "PrometheumPaxel");
+		InventoryItemRender(PaxelTools.ProxiiPaxel, "ProxiiPaxel");
+		InventoryItemRender(PaxelTools.SeismumPaxel, "SeismumPaxel");
+		InventoryItemRender(PaxelTools.SolariumPaxel, "SolariumPaxel");
+		InventoryItemRender(PaxelTools.TerraxPaxel, "TerraxPaxel");
+		InventoryItemRender(PaxelTools.TiberiumPaxel, "TiberiumPaxel");
+		InventoryItemRender(PaxelTools.TriberiumPaxel, "TriberiumPaxel");
+		InventoryItemRender(PaxelTools.TritonitePaxel, "TritonitePaxel");
+		InventoryItemRender(PaxelTools.UruPaxel, "UruPaxel");
+		InventoryItemRender(PaxelTools.ValyriumPaxel, "ValyriumPaxel");
+		InventoryItemRender(PaxelTools.VibraniumPaxel, "VibraniumPaxel");
+		InventoryItemRender(PaxelTools.VioliumPaxel, "VioliumPaxel");
+		InventoryItemRender(PaxelTools.YrdeenPaxel, "YrdeenPaxel");
 	}
 	  
 	public static void InventoryItemRender(Item item, String itemName) {

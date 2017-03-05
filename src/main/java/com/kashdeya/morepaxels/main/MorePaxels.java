@@ -15,7 +15,7 @@ import com.kashdeya.morepaxels.inits.PaxelTools;
 import com.kashdeya.morepaxels.proxy.CommonProxy;
 import com.kashdeya.morepaxels.tabs.TabMP;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, dependencies = "after:basemetals;after:immersiveengineering")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, dependencies = "after:basemetals;after:immersiveengineering;after:adamantium;after:taiga")
 
 public class MorePaxels {
 	
