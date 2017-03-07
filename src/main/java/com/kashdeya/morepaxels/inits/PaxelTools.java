@@ -253,8 +253,10 @@ public class PaxelTools {
 		}
 		// Adamantium
 		if (Loader.isModLoaded("adamantium")){
-			AdamantiumPaxel = new AdamantiumPaxel(ToolHandler.adamantiumToolMaterial);
-			registerItem(AdamantiumPaxel, "AdamantiumPaxel");
+			if (ConfigHandler.AdamantiumPaxel){
+				AdamantiumPaxel = new AdamantiumPaxel(ToolHandler.adamantiumToolMaterial);
+				registerItem(AdamantiumPaxel, "AdamantiumPaxel");
+			}
 		}
 		// Taiga
 		if (Loader.isModLoaded("taiga")){
