@@ -3,17 +3,16 @@ package com.kashdeya.morepaxels.paxels;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.google.common.collect.ImmutableSet;
+import com.google.common.collect.Sets;
+import com.kashdeya.morepaxels.main.MorePaxels;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
-
-import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Sets;
-import com.kashdeya.morepaxels.main.MorePaxels;
 
 public class MainPaxels extends ItemPickaxe{
 	
@@ -43,14 +42,14 @@ public class MainPaxels extends ItemPickaxe{
 
 	@Override
 	public boolean canHarvestBlock(IBlockState blockIn) {
-			return effectiveAgainst.contains(blockIn) ? true : super.canHarvestBlock(blockIn);
+			return effectiveAgainst.contains(blockIn.getBlock()) ? true : super.canHarvestBlock(blockIn);
 	}
 
 	@Override
 	public float getStrVsBlock(ItemStack stack, IBlockState state) {
 		 if (state.getMaterial() == Material.WOOD || state.getMaterial() == Material.VINE || state.getMaterial() == Material.PLANTS || state.getMaterial() == Material.GROUND || state.getMaterial() == Material.GRASS || state.getMaterial() == Material.SAND)
 		        return this.efficiencyOnProperMaterial;
-		 return effectiveAgainst.contains(state) ? this.efficiencyOnProperMaterial : super.getStrVsBlock(stack, state);
+		 return effectiveAgainst.contains(state.getBlock()) ? this.efficiencyOnProperMaterial : super.getStrVsBlock(stack, state);
 	}
 
 }

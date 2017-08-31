@@ -1,15 +1,13 @@
 package com.kashdeya.morepaxels.recipes;
 
 
-import net.minecraft.init.Items;
+import com.kashdeya.morepaxels.handlers.ConfigHandler;
+import com.kashdeya.morepaxels.inits.PaxelTools;
+
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
-
-import com.kashdeya.morepaxels.handlers.ConfigHandler;
-import com.kashdeya.morepaxels.inits.PaxelTools;
-import com.reygok.adamantiummod.init.AdaItems;
 
 
 
@@ -94,12 +92,14 @@ public class Recipes {
 		if (ConfigHandler.ImmersiveUraniumPaxel){
 			GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(PaxelTools.ImmersiveUraniumPaxel), "www", " sw", " s ", 'w', "ingotUranium", 's', "stickWood"));
 		}
-		// Adamantium
+		// Adamantium (OUTDATED)
+		/*
 		if (Loader.isModLoaded("adamantium")){
 			if (ConfigHandler.AdamantiumPaxel){
 				GameRegistry.addShapedRecipe(new ItemStack(PaxelTools.AdamantiumPaxel), new Object[] {"www", " sw", " s ", 'w', new ItemStack(AdaItems.adamantiumIngot), 's', new ItemStack(Items.STICK)});
 			}
 		}
+		*/
 		// Taiga
 		if (Loader.isModLoaded("taiga")){
 			if (ConfigHandler.AbyssumPaxel){

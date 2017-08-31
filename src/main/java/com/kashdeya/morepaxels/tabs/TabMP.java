@@ -3,7 +3,7 @@ package com.kashdeya.morepaxels.tabs;
 import com.kashdeya.morepaxels.inits.PaxelTools;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class TabMP extends CreativeTabs{
 	public TabMP(String label) {
@@ -11,7 +11,7 @@ public class TabMP extends CreativeTabs{
 	}
 
 	@Override
-	public Item getTabIconItem() {
-		return PaxelTools.DiamondPaxel;
+	public ItemStack getTabIconItem() {
+		return new ItemStack(PaxelTools.DiamondPaxel);
 	}
 }

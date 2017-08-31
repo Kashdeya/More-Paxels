@@ -1,9 +1,8 @@
 package com.kashdeya.morepaxels.paxels;
 
-import net.minecraft.item.ItemStack;
-
 import com.kashdeya.morepaxels.handlers.ConfigHandler;
-import com.sosnitzka.taiga.Items;
+
+import net.minecraft.item.ItemStack;
 
 public class AbyssumPaxel extends MainPaxels {
 	
@@ -16,9 +15,10 @@ public class AbyssumPaxel extends MainPaxels {
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-        ItemStack mat = new ItemStack(Items.abyssumIngot);
-        if (mat != null && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
-        return super.getIsRepairable(toRepair, repair);
+    	return false;
+//        ItemStack mat = new ItemStack(Items.abyssumIngot);
+  //      if (mat != null && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
+    //    return super.getIsRepairable(toRepair, repair);
     }
 	
 }

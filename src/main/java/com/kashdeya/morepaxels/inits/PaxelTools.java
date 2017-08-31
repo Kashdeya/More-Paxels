@@ -1,77 +1,39 @@
 package com.kashdeya.morepaxels.inits;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.Item.ToolMaterial;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-
 import com.kashdeya.morepaxels.handlers.ConfigHandler;
 import com.kashdeya.morepaxels.handlers.ToolHandler;
 import com.kashdeya.morepaxels.main.Reference;
-import com.kashdeya.morepaxels.paxels.AbyssumPaxel;
-import com.kashdeya.morepaxels.paxels.AdamantPaxel;
 import com.kashdeya.morepaxels.paxels.AdamantinePaxel;
-import com.kashdeya.morepaxels.paxels.AdamantiumPaxel;
 import com.kashdeya.morepaxels.paxels.AquariumPaxel;
-import com.kashdeya.morepaxels.paxels.AstriumPaxel;
-import com.kashdeya.morepaxels.paxels.AuroriumPaxel;
-import com.kashdeya.morepaxels.paxels.BasaltPaxel;
 import com.kashdeya.morepaxels.paxels.BrassPaxel;
 import com.kashdeya.morepaxels.paxels.BronzePaxel;
 import com.kashdeya.morepaxels.paxels.ColdPaxel;
 import com.kashdeya.morepaxels.paxels.CopperPaxel;
 import com.kashdeya.morepaxels.paxels.CupronickelPaxel;
 import com.kashdeya.morepaxels.paxels.DiamondPaxel;
-import com.kashdeya.morepaxels.paxels.DilithiumPaxel;
-import com.kashdeya.morepaxels.paxels.DuranitePaxel;
-import com.kashdeya.morepaxels.paxels.DyonitePaxel;
-import com.kashdeya.morepaxels.paxels.EezoPaxel;
 import com.kashdeya.morepaxels.paxels.ElectrumPaxel;
-import com.kashdeya.morepaxels.paxels.FractumPaxel;
 import com.kashdeya.morepaxels.paxels.GoldenPaxel;
-import com.kashdeya.morepaxels.paxels.IgnitzPaxel;
 import com.kashdeya.morepaxels.paxels.ImmersiveAluminiumPaxel;
 import com.kashdeya.morepaxels.paxels.ImmersiveConstantanPaxel;
 import com.kashdeya.morepaxels.paxels.ImmersiveUraniumPaxel;
-import com.kashdeya.morepaxels.paxels.ImperomitePaxel;
 import com.kashdeya.morepaxels.paxels.InvarPaxel;
-import com.kashdeya.morepaxels.paxels.IoxPaxel;
 import com.kashdeya.morepaxels.paxels.IronPaxel;
-import com.kashdeya.morepaxels.paxels.JauxumPaxel;
-import com.kashdeya.morepaxels.paxels.KarmesinePaxel;
 import com.kashdeya.morepaxels.paxels.LeadPaxel;
-import com.kashdeya.morepaxels.paxels.LumixPaxel;
-import com.kashdeya.morepaxels.paxels.MeteoritePaxel;
 import com.kashdeya.morepaxels.paxels.MithrilPaxel;
 import com.kashdeya.morepaxels.paxels.NickelPaxel;
-import com.kashdeya.morepaxels.paxels.NihilitePaxel;
-import com.kashdeya.morepaxels.paxels.NiobPaxel;
-import com.kashdeya.morepaxels.paxels.NucleumPaxel;
-import com.kashdeya.morepaxels.paxels.ObsidioritePaxel;
-import com.kashdeya.morepaxels.paxels.OsramPaxel;
-import com.kashdeya.morepaxels.paxels.OviumPaxel;
-import com.kashdeya.morepaxels.paxels.PalladiumPaxel;
 import com.kashdeya.morepaxels.paxels.PlatinumPaxel;
-import com.kashdeya.morepaxels.paxels.PrometheumPaxel;
-import com.kashdeya.morepaxels.paxels.ProxiiPaxel;
-import com.kashdeya.morepaxels.paxels.SeismumPaxel;
 import com.kashdeya.morepaxels.paxels.SilverPaxel;
-import com.kashdeya.morepaxels.paxels.SolariumPaxel;
 import com.kashdeya.morepaxels.paxels.StarPaxel;
 import com.kashdeya.morepaxels.paxels.SteelPaxel;
 import com.kashdeya.morepaxels.paxels.StonePaxel;
-import com.kashdeya.morepaxels.paxels.TerraxPaxel;
-import com.kashdeya.morepaxels.paxels.TiberiumPaxel;
 import com.kashdeya.morepaxels.paxels.TinPaxel;
-import com.kashdeya.morepaxels.paxels.TriberiumPaxel;
-import com.kashdeya.morepaxels.paxels.TritonitePaxel;
-import com.kashdeya.morepaxels.paxels.UruPaxel;
-import com.kashdeya.morepaxels.paxels.ValyriumPaxel;
-import com.kashdeya.morepaxels.paxels.VibraniumPaxel;
-import com.kashdeya.morepaxels.paxels.VioliumPaxel;
 import com.kashdeya.morepaxels.paxels.WoodenPaxel;
-import com.kashdeya.morepaxels.paxels.YrdeenPaxel;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.common.Loader;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class PaxelTools {
 	
@@ -251,14 +213,17 @@ public class PaxelTools {
 				registerItem(ImmersiveUraniumPaxel, "ImmersiveUraniumPaxel");
 			}
 		}
-		// Adamantium
+		// Adamantium (OUTDATED)
+		/*
 		if (Loader.isModLoaded("adamantium")){
 			if (ConfigHandler.AdamantiumPaxel){
 				AdamantiumPaxel = new AdamantiumPaxel(ToolHandler.adamantiumToolMaterial);
 				registerItem(AdamantiumPaxel, "AdamantiumPaxel");
 			}
 		}
-		// Taiga
+		*/
+		// Taiga (OUTDATED)
+		/*
 		if (Loader.isModLoaded("taiga")){
 			if (ConfigHandler.AbyssumPaxel){
 				AbyssumPaxel = new AbyssumPaxel(ToolHandler.abyssumToolMaterial);
@@ -409,6 +374,7 @@ public class PaxelTools {
 				registerItem(YrdeenPaxel, "YrdeenPaxel");
 			}
 		}
+		*/
 		
 	}
 

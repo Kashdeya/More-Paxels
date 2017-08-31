@@ -1,10 +1,11 @@
 package com.kashdeya.morepaxels.paxels;
 
-import net.minecraft.item.ItemStack;
-
 import com.kashdeya.morepaxels.handlers.ConfigHandler;
+import com.mcmoddev.basemetals.data.MaterialNames;
+import com.mcmoddev.basemetals.init.Items;
+import com.mcmoddev.lib.data.Names;
 
-import cyano.basemetals.init.Items;
+import net.minecraft.item.ItemStack;
 
 
 public class AdamantinePaxel extends MainPaxels {
@@ -18,7 +19,7 @@ public class AdamantinePaxel extends MainPaxels {
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-        ItemStack mat = new ItemStack(Items.adamantine_ingot);
+        ItemStack mat = new ItemStack(Items.getItemByName(MaterialNames.ADAMANTINE + "_" + Names.INGOT));
         if (mat != null && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
         return super.getIsRepairable(toRepair, repair);
     }
