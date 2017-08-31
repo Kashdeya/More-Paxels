@@ -1,9 +1,7 @@
 package com.kashdeya.morepaxels.paxels.disabled;
 
-import net.minecraft.item.ItemStack;
-
 import com.kashdeya.morepaxels.handlers.ConfigHandler;
-import com.sosnitzka.taiga.Items;
+import com.kashdeya.morepaxels.paxels.MainPaxels;
 
 public class ProxiiPaxel extends MainPaxels {
 	
@@ -12,7 +10,7 @@ public class ProxiiPaxel extends MainPaxels {
 		this.setUnlocalizedName("ProxiiPaxel");
 		this.setMaxDamage(ConfigHandler.ProxiiDamage);
 	}
-	
+	/*
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
@@ -20,5 +18,5 @@ public class ProxiiPaxel extends MainPaxels {
         if (mat != null && net.minecraftforge.oredict.OreDictionary.itemMatches(mat, repair, false)) return true;
         return super.getIsRepairable(toRepair, repair);
     }
-	
+	*/
 }
